@@ -2,8 +2,6 @@
 
 import re
 import poplib
-import email        #
-import email.header #
 import os, sys
 import time
 
