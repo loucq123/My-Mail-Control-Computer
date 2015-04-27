@@ -26,7 +26,7 @@ def configuration():
 		print "The file is not exist" + e
 		exit()
 
-	information = configFile.readlines()
+    information = configFile.readlines()
 	host = search_word(r'host:(?: *)?(.*?)\n',information[0])
 	username = search_word(r'username:(?: *)?(.*?com)\n',information[1])
 	password = search_word(r'password:(?: *)?(.*?)\n',information[2])
@@ -173,6 +173,8 @@ if __name__ == '__main__':
 	while True:
 		time.sleep(timeLimit)
 		login_email()
+		
+		
 
 
 
